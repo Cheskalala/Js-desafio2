@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/stickers.css">
+    <link rel="stylesheet" href="./stickers.css">
 </head>
 <body>
-    <script src="assets/js/stickers.js"></script>
+    <main> 
+        <!-- sticker 1 -->
+        <div class="card">
+            <div class="card-img">
+                <img src="./img/calabaza.png" alt="">
+            </div>
+            <div class="card-input">
+                <input type="text" id="calabaza">
+            </div>
+        </div>
+        <!-- sticker 2 -->
+        <div class="card">
+            <div class="card-img">
+                <img src="./img/esqueleto.png" alt="">
+            </div>
+            <div class="card-input" >
+                <input type="text" id="esqueleto">
+            </div>
+        </div>
+        <!-- sticker 3 -->
+        <div class="card">
+            <div class="card-img">
+                <img src="./img/bruja.png" alt="">
+            </div>
+            <div class="card-input">
+                <input type="text" id="bruja" >
+            </div>
+        </div>
+    </main>
+    <button onclick="sumaFunc()" class="boton" id="boton">
+        <p>Obtener</p>
+        <p id="resultado"></p>
+    </button>
+    
+    <footer>
+        <img src="./img/suelo.png" alt="">
+    </footer>
+    <script src="stickers.js"></script>
 </body>
 </html>
