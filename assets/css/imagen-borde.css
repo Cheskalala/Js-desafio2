@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000000;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.imagen{
+    height: 50%;
+}
+.bordeoff
+{
+    border: none;
+}
+.bordeon{
+    border: solid 2px #ff0000;
+}
