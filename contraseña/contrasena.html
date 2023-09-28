@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/contrasena.css">
+    <link rel="stylesheet" href="contrasena.css">
 </head>
 <body>
-    <script src="./assets/js/contrasena.js"></script>
+    <main>
+        <div id="caja" class="cajaoff">
+            <div id="dentro" class="contraseña"></div>
+        </div>
+        <div class="panel">
+            <div class="pad">
+                <div class="select">
+                    <select name="" id="select1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="" id="select2">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="" id="select3">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <button onclick="contraseña()" >*</button>    
+                <p id="error" class="error"></p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="contrasena.js"></script>
 </body>
 </html>

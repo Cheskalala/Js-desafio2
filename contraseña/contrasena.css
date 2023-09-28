@@ -6,4 +6,94 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("./img/fondo.jpg");
+    background-size: cover;
+    
 }
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajaoff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./img/cerrada.png");
+    background-size:cover;
+    height: 1000px;
+    width: 900px;
+}
+.cajaon{
+    background: url("./img/abierta.png");
+    background-size:cover;
+    height: 1000px;
+    width: 900px;
+}
+.contraseña{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+.si{
+    background: #ffb732;
+
+}
+.panel{
+    background: #8a8a8a;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid 2px #000 ;
+    border-radius: 15px;
+}
+.pad{
+    background: #a6a6a6;
+    height: 150px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #000 ;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 2px #000);
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pad{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pad select{
+    width: 70px;
+    text-align: center;
+    background: #797979;
+    
+    
+}
+.pad option{
+    background: #797979;
+}
+button{
+    padding: 10px 15px;
+    border: solid 1px #000;
+    border-radius: 50%;
+}
+.error{
+
+}
+
+
+
+
+
